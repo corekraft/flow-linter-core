@@ -1,6 +1,6 @@
 {
-  "name": "lightning-flow-scanner-core",
-  "version": "4.51.0",
+  "name": "@corekraft/flow-linter-core",
+  "version": "1.0.0",
   "main": "index.js",
   "types": "index.d.ts",
   "type": "commonjs",
@@ -34,10 +34,10 @@
   },
   "keywords": [],
   "license": "MIT",
-  "description": "A rule engine capable of conducting static analysis on the metadata associated with Salesforce Lightning Flows, Process Builders, and Workflows.",
+  "description": "A rule engine capable of conducting static analysis on the metadata associated with Salesforce Flows, Process Builders, and Workflows.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Lightning-Flow-Scanner/lightning-flow-scanner-core.git"
+    "url": "git+https://github.com/corekraft/flow-linter-core.git"
   },
   "devDependencies": {
     "@commitlint/cli": "19.8.1",
@@ -67,5 +67,14 @@
   },
   "dependencies": {
     "xmlbuilder2": "^3.1.1"
-  }
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "author": "corekraft",
+  "bugs": {
+    "url": "https://github.com/corekraft/flow-linter-core/issues"
+  },
+  "homepage": "https://github.com/corekraft/flow-linter-core#readme"
 }
