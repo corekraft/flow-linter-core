@@ -4,8 +4,8 @@
 export default {
   branches: [
     {
-      name: "master",
       channel: "beta",
+      name: "master",
     },
   ],
   plugins: [
@@ -14,15 +14,15 @@ export default {
       {
         preset: "conventionalcommits",
         releaseRules: [
-          { type: "fix", release: "patch" },
-          { type: "feat", release: "patch" },
-          { type: "build", release: "patch" },
-          { type: "chore", release: "patch" },
-          { type: "docs", release: "patch" },
-          { type: "style", release: "patch" },
-          { type: "refactor", release: "patch" },
-          { type: "perf", release: "patch" },
-          { type: "test", release: "patch" },
+          { release: "patch", type: "fix" },
+          { release: "patch", type: "feat" },
+          { release: "patch", type: "build" },
+          { release: "patch", type: "chore" },
+          { release: "patch", type: "docs" },
+          { release: "patch", type: "style" },
+          { release: "patch", type: "refactor" },
+          { release: "patch", type: "perf" },
+          { release: "patch", type: "test" },
         ],
       },
     ],
